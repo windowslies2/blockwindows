@@ -43,14 +43,19 @@ Please repost these URLs many places on social media, blogs, etc. I'm in it for 
 https://blockwindows.wordpress.com/
 
 https://github.com/WindowsLies/BlockWindows/
+
 https://github.com/WindowsLies2/BlockWindows/
 
 File Mirrors
 --
+LATEST
+
 http://mir.cr/LJM1TMLV
 
 MD5
 ffaa1426fe95332f8f0e130608150c7b
+
+OLD
 
 http://www.hakspek.com/wp-content/uploads/2015/08/block_w10.zip
 
