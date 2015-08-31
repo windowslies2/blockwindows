@@ -46,6 +46,8 @@ https://github.com/WindowsLies/BlockWindows/
 
 https://github.com/WindowsLies2/BlockWindows/
 
+https://gitlab.com/windowslies/blockwindows
+
 File Mirrors
 --
 LATEST
