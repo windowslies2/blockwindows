@@ -54,11 +54,10 @@ LATEST
 
 http://mir.cr/LJM1TMLV
 
-MD5
-ffaa1426fe95332f8f0e130608150c7b
+MD5 ffaa1426fe95332f8f0e130608150c7b
 
 OLD
 
 http://www.hakspek.com/wp-content/uploads/2015/08/block_w10.zip
 
-a404bc85db63d5340aa3b67ea523ff4e
+MD5 a404bc85db63d5340aa3b67ea523ff4e
