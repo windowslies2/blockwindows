@@ -19,8 +19,11 @@ echo  - next
 echo Delete KB2952664 (Get Windows 10 assistant)
 start "title" /b /wait wusa.exe /kb:2952664 /uninstall /quiet /norestart
 echo  - next
-echo Delete KB2976978 (description not available)
+echo Delete KB2976978 (update for windows 8.1 and windows 8)
 start "title" /b /wait wusa.exe /kb:2976978 /uninstall /quiet /norestart
+echo  - next
+echo Delete KB29777598 (update for windows 7 rtm)
+start "title" /b /wait wusa.exe /kb:29777598 /uninstall /quiet /norestart
 echo  - next
 echo Delete KB2990214 (Get Windows 10 for Win7)
 start "title" /b /wait wusa.exe /kb:2990214 /uninstall /quiet /norestart
@@ -28,7 +31,13 @@ echo  - next
 echo Delete KB3012973 (Upgrade to Windows 10 Pro)
 start "title" /b /wait wusa.exe /kb:3012973 /uninstall /quiet /norestart
 echo  - next
-echo Delete KB3021917 (Update to Windows 7 SP1 for performance improvements)
+echo Delete KB3014460 (Upgrade for windows insider preview / upgrade to windows 10)
+start "title" /b /wait wusa.exe /kb:3014460 /uninstall /quiet /norestart
+echo  - next
+echo Delete KB3015249 (Upgrade that adds telemetry points to consent.exe in Windows 8.1 and Windows 7)
+start "title" /b /wait wusa.exe /kb:3015249 /uninstall /quiet /norestart
+echo  - next
+echo Delete KB3021917 (update to Windows 7 SP1 for performance improvements)
 start "title" /b /wait wusa.exe /kb:3021917 /uninstall /quiet /norestart
 echo  - next
 echo Delete KB3022345 (telemetry)
@@ -43,6 +52,9 @@ echo  - next
 echo Delete KB3050265 (update for Windows Update on Win7)
 start "title" /b /wait wusa.exe /kb:3050265 /uninstall /quiet /norestart
 echo  - next
+echo Delete KB3050267 (update for windows update client for windows 8.1 june 2015)
+start "title" /b /wait wusa.exe /kb:3050267 /uninstall /quiet /norestart
+echo  - next
 echo Delete KB3065987 (update for Windows Update on Win7/Server 2008R2)
 start "title" /b /wait wusa.exe /kb:3065987 /uninstall /quiet /norestart
 echo  - next
@@ -51,6 +63,9 @@ start "title" /b /wait wusa.exe /kb:3068708 /uninstall /quiet /norestart
 echo  - next
 echo Delete KB3075249 (telemetry for Win7/8.1)
 start "title" /b /wait wusa.exe /kb:3075249 /uninstall /quiet /norestart
+echo  - next
+echo Delete KB3075851 (update for Windows Update on Win7/Server 2008R2)
+start "title" /b /wait wusa.exe /kb:3075851 /uninstall /quiet /norestart
 echo  - next
 echo Delete KB3075853 (update for Windows Update on Win8.1/Server 2012R2)
 start "title" /b /wait wusa.exe /kb:3075853 /uninstall /quiet /norestart
@@ -62,7 +77,7 @@ timeout 5
 
 REM --- Hide updates
 echo Hiding updates...
-start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 2952664 2976978 2990214 3012973 3021917 3022345 3035583 3044374 3050265 3065987 3068708 3075249 3075853 3080149 
+start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 2952664 2976978 29777598 2990214 3012973 3014460 3015249 3021917 3022345 3035583 3044374 3050265 3050267 3065987 3068708 3075249 3075851 3075853 3080149 
 echo  - done.
 
 REM --- Block Routes
